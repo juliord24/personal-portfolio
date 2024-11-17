@@ -12,4 +12,15 @@ import {NgOptimizedImage} from "@angular/common";
 })
 export class AboutComponent {
 
+  openEmail(){
+    window.location.href = 'mailto:julio@gmail.com';
+  }
+
+  downloadCV(){
+    const link = document.createElement('a');
+    link.href = 'assets/documents/cv.pdf';
+    link.download = 'cv.pdf';
+    link.click();
+  }
+
 }
