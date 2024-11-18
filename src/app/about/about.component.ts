@@ -18,8 +18,8 @@ export class AboutComponent {
 
   downloadCV(){
     const link = document.createElement('a');
-    link.href = 'assets/documents/cv.pdf';
-    link.download = 'cv.pdf';
+    link.href = 'assets/docs/cvJRD.pdf';
+    link.download = 'cvJRD.pdf';
     link.click();
   }
 
